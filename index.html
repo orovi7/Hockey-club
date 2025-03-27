@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey club</title>
+</head>
+<!-- tailwind and daisyui cdn -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<!-- remix icon cdn -->
+<link
+href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+rel="stylesheet"
+/>
+<body>
+
+   <header>
+     <nav class="mx-2 md:mx-4 lg:mx-12 my-8">
+        <div class="navbar">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                  <li><a>Home</a></li>
+                 <li><a>About</a></li>
+                 <li><a>Pages</a></li>
+                 <li><a>Blog</a></li>
+                 <li><a>Contact</a></li>
+                
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-3xl font-bold">Hockey's</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+               <li><a>About</a></li>
+               <li><a>Pages</a></li>
+               <li><a>Blog</a></li>
+               <li><a>Contact</a></li>
+            
+              </ul>
+            </div>
+            <div class="navbar-end gap-2 md:gap-2 lg:gap-6">
+                <i class="ri-search-line text-[#89898B]"></i>
+              <a class="btn bg-[#FF4240] text-white">Get Ticket</a>
+            </div>
+          </div>
+     </nav>
+     <!-- banner section -->
+      <section class="mx-2 md:mx-4 lg:mx-12 px-2 md:mx-4 lg:px-11">
+     <div class="carousel">
+        <div id="slide1" class="carousel-item relative w-full ">
+          <img
+            src="/Hockey-club/Images/1.png"
+            class="w-full" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+            class="w-full" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+            class="w-full" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide4" class="carousel-item relative w-full">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+            class="w-full" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+    </section>
+   </header> 
+   <main>
+    <!-- profession section -->
+    <section>
+        <div class="mt-16 mx-24 border-y-2 border-dashed py-10">
+            <h1 class="text-3xl font-bold text-center">Professional Hockeys Club</h1>
+            <p class="text-center text-[#3b3b44] mt-4 text-sm">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+        </div>
+    </section>
+       <!-- program-section -->
+       <section class="mt-16 mx-24">
+        <!-- program-des -->
+        <div class="text-center space-y-4 py-4 border-dashed  border-t-2 border-b-2">
+          <h3 class="text-3xl text-tittle font-bold">Program Sections</h3>
+          <p class="text-base text-des text-center text-sm text-[#3b3b44]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+            placerat <br> dolor. Purus urna in sit nullam proin. </p>
+        </div>
+  
+        <!--program- grid -->
+        <div class="mt-12  grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- card1 -->
+          <div class="hero rounded-xl w-full md:h-[300px]" style="background-image: url(./Images/2.png);">
+            <div class="hero-overlay rounded-xl  bg-opacity-60 cover"></div>
+            <div class="hero text-white text-start rounded-xl  lg:flex justify-start bg-cover items-start pb-2 px-4">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-xl font-bold">Junior Program</h1>
+                <p class="mb-5 text-sm">
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+                </p>
+                <button class="btn border-none shadow-none  bg-[#FF4240] px-6 text-white">Register Now!</button>
+              </div>
+            </div>
+          </div>
+          <!-- card2 -->
+          <div class="hero rounded-xl w-full md:h-[300px]" style="background-image: url(./Images/3.png);">
+            <div class="hero-overlay rounded-xl  bg-opacity-60 cover"></div>
+            <div class="hero text-white text-start rounded-xl  lg:flex justify-start bg-cover items-start pb-2 px-4">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-xl font-bold">Teenager Program</h1>
+                <p class="mb-5 text-sm">
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+                </p>
+                <button class="btn border-none bg-primary-colour shadow-none bg-[#FF4240] px-6 text-white">Register Now!</button>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+        <!-- card3 -->
+        <div class="mt-8">
+          <div class="hero rounded-xl w-full bg-cover h-[220px]  md:h-[400px]"
+            style="background-image: url(./Images/4.png);">
+            <div class="hero-overlay rounded-xl  bg-opacity-60 bg-cover "></div>
+  
+            <div class="hero text-white text-start rounded-xl flex justify-start items-end px-4">
+              <div class=" max-w-md">
+                <h1 class="mb-5 md:text-3xl text-xl font-bold">Teenager Program</h1>
+                <p class="mb-5 text-sm">
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et
+                  in.
+                </p>
+                <button class="btn border-none bg-primary-colour bg-[#FF4240] shadow-none px-6 text-white">Register Now!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </section>
+
+      <!-- our new products  -->
+      <section>
+        <div class="mt-16 mx-24 border-y-2 border-dashed py-10">
+            <h1 class="text-3xl font-bold text-center">Our New Products</h1>
+            <p class="text-center text-[#3b3b44] mt-4 text-sm">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+        </div>
+    </section>
+
+  <!-- card container -->
+   <div class="flex justify-around mt-10">
+    <!-- left side -->
+    <div class="space-y-7">
+    <!-- card 1 -->
+    <div class="card card-side bg-base-100 shadow-sm">
+      <figure>
+        <img class="p-4"
+          src="/Hockey-club/Images/5.png"
+          alt="Movie" />
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title font-bold">World Cup Flags Football</h2>
+        <p>Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+        <div class="card-actions">
+          <p class="text-lg font-bold text-[#FF4240]">Price-22.0$</p>
+        </div>
+      </div>
+    </div>
+    <!-- card 2 -->
+    <div class="card card-side bg-base-100 shadow-sm">
+      <figure>
+        <img class="p-4"
+          src="/Hockey-club/Images/7.png"
+          alt="Movie" />
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title">World Cup Flags Football</h2>
+        <p>Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+        <div class="card-actions justify-end">
+          <p class="text-lg font-bold text-[#FF4240]">Price-22.0$</p>
+        </div>
+      </div>
+    </div>
+    <!-- card 3 -->
+    <div class="card card-side bg-base-100 shadow-sm">
+      <figure>
+        <img class="p-4"
+          src="/Hockey-club/Images/9.png"
+          alt="Movie" />
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title">Cap For Hockeys</h2>
+        <p>Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+        <div class="card-actions justify-end">
+          <p class="text-lg font-bold text-[#FF4240]">Price-22.0$</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- right side -->
+    <div class="space-y-7">
+    <!-- card 1 -->
+    <div class="card card-side bg-base-100 shadow-sm">
+      <figure>
+        <img class="p-4"
+          src="/Hockey-club/Images/6.png"
+          alt="Movie" />
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title">World Cup Flags Football</h2>
+        <p>Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+        <div class="card-actions justify-end">
+          <p class="text-lg font-bold text-[#FF4240]">Price-22.0$</p>
+        </div>
+      </div>
+    </div>
+    <!-- card 2 -->
+    <div class="card card-side bg-base-100 shadow-sm">
+      <figure>
+        <img class="p-4"
+          src="/Hockey-club/Images/8.png"
+          alt="Movie" />
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title">World Cup Flags Football</h2>
+        <p>Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+        <div class="card-actions justify-end">
+          <p class="text-lg font-bold text-[#FF4240]">Price-22.0$</p>
+        </div>
+      </div>
+    </div>
+    <!-- card 3 -->
+    <div class="card card-side bg-base-100 shadow-sm">
+      <figure>
+        <img class="p-4"
+          src="/Hockey-club/Images/10.png"
+          alt="Movie" />
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title">World Cup Flags Football</h2>
+        <p>Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+        <div class="card-actions justify-end">
+          <p class="text-lg font-bold text-[#FF4240]">Price-22.0$</p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+   </div>
+
+   <!-- client question section -->
+   <section>
+    <div class="mt-16 mx-24 border-y-2 border-dashed py-10">
+        <h1 class="text-3xl font-bold text-center">Clients Question</h1>
+        <p class="text-center text-[#3b3b44] mt-4 text-sm">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+    </div>
+</section>
+
+<div class="flex justify-around mt-14">
+<div>
+  <img src="/Hockey-club/Images/11.png" alt="">
+</div>
+
+<div>
+ 
+  <div class="collapse collapse-plus bg-base-100 border border-base-300">
+
+    <input type="radio" name="my-accordion-3" checked="checked" />
+    <div class="collapse-title font-semibold">Our Equipment</div>
+    <div class="collapse-content text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim <br> sagittis turpis in magna.</div>
+  </div>
+  <div class="collapse collapse-plus bg-base-100 border border-base-300">
+    <input type="radio" name="my-accordion-3" />
+    <div class="collapse-title font-semibold">Hockey Training</div>
+    <div class="collapse-content text-sm">Click on "Forgot Password" on the login page and follow the instructions sent to your email.</div>
+  </div>
+  <div class="collapse collapse-plus bg-base-100 border border-base-300">
+    <input type="radio" name="my-accordion-3" />
+    <div class="collapse-title font-semibold">Private Lessons</div>
+    <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make changes.</div>
+  </div>
+
+  <div class="collapse collapse-plus bg-base-100 border border-base-300">
+
+    <input type="radio" name="my-accordion-3" checked="checked" />
+    <div class="collapse-title font-semibold">Ski Touring</div>
+    <div class="collapse-content text-sm">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
+  </div>
+  <div class="collapse collapse-plus bg-base-100 border border-base-300">
+
+    <input type="radio" name="my-accordion-3" checked="checked" />
+    <div class="collapse-title font-semibold">Booking</div>
+    <div class="collapse-content text-sm">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
+  </div>
+  <div class="collapse collapse-plus bg-base-100 border border-base-300">
+
+    <input type="radio" name="my-accordion-3" checked="checked" />
+    <div class="collapse-title font-semibold">Pricings</div>
+    <div class="collapse-content text-sm">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
+  </div>
+  </div>
+</div>
+
+
+   </main>
+  
+        <!-- get-in-touch-section -->
+        <section class="mt-16 md:p-0 p-4">
+          <!-- get-in-des -->
+          <div class="text-center space-y-4 py-4 border-dashed  border-t-2 border-b-2">
+            <h3 class="text-3xl text-tittle font-extrabold">Professional Hockeys Club</h3>
+            <p class="text-base text-des text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+              placerat <br> dolor. Purus urna in sit nullam proin. </p>
+          </div>
+    
+          <!-- log-in-form -->
+    
+          <div class="mt-10">
+            <div class="hero ">
+              <div class="hero-content flex-1 flex-col lg:flex-row">
+                <!-- contact -->
+                <div class="border-2 rounded-xl md:px-10 md:py-8 p-4 w-full space-y-4 ">
+                  <div class=" px-6 py-4 space-y-2 rounded-xl bg-[#BCED6D33] md:w-[350px]">
+                      <div class="pb-4">
+                        <img src="/Hockey-club/Images/Group 1171275317.png" alt="">
+                      </div>
+                      <p class="text-base text-des">Phone Number :</p>
+                      <h3 class="text-xl text-tittle font-bold">(+62) 123-321-543</h3>
+                  </div>
+                  <div class=" py-4 px-6 space-y-2 rounded-xl bg-[#FDDD5F1a]">
+                      <div class="pb-4">
+                        <img src="/Hockey-club/Images/Group 1171275318.png" alt="">
+                      </div>
+                      <p class="text-base text-des">Email :</p>
+                      <h3 class="text-xl text-tittle font-bold">hockeys@support.com</h3>
+                  </div>
+                  <div class=" py-4 px-6 space-y-2 rounded-xl bg-[#629CF31a]">
+                      <div class="pb-4">
+                        <img src="/Hockey-club/Images/Group 1171275321.png" alt="">
+                      </div>
+                      <p class="text-base text-des">Location :</p>
+                      <h3 class="text-xl text-tittle font-bold">152/1 Mohakhali Wireless Gate</h3>
+                  </div>
+                </div>
+                <!-- form -->
+                <div class="">
+                  <form class="p-0">
+                    <!-- name-email -->
+                    <div class="flex flex-col md:flex-row gap-4">
+                      <div class="">
+                        <label class="label">
+                          <span class=" text-xl text-black text-tittle font-bold">Your Name</span>
+                        </label>
+                        <input type="text" placeholder="Enter your Name"
+                          class="input text-base bg-[#13131808] text-[1313184d] w-[330px] md:w-[270px]" required />
+                      </div>
+                      <div class="form-control">
+                        <label class="label">
+                          <span class=" text-xl text-tittle font-bold text-black">Your Email</span>
+                        </label>
+                        <input type="email" placeholder="Enter your Email"
+                          class="input text-base bg-[#13131808] text-[1313184d] md:w-[270px]" required />
+                      </div>
+                    </div>
+                    <!-- nsubject-number -->
+                    <div class="flex flex-col md:flex-row gap-4 mt-6">
+                      <div class="form-control">
+                        <label class="label">
+                          <span class=" text-xl text-tittle font-bold text-black">Your Subject</span>
+                        </label>
+                        <input type="text" placeholder="Enter Your Subject"
+                          class="input text-base bg-[#13131808] text-[1313184d] md:w-[270px]" required />
+                      </div>
+                      <div class="form-control">
+                        <label class="label">
+                          <span class=" text-xl text-tittle font-bold text-black">Your Number</span>
+                        </label>
+                        <input type="number" placeholder="Enter Your Subject"
+                          class="input  text-base bg-[#13131808] text-[1313184d] md:w-[270px]" required />
+                      </div>
+                    </div>
+                    <!-- textarea -->
+                    <div class="mt-6">
+                      <label class="form-control">
+                        <div class="label">
+                          <span class="text-xl text-tittle font-bold text-black">Message</span>
+                        </div>
+                        <textarea class="textarea text-base bg-[#13131808] text-[1313184d] h-[200px] md:h-[300px]" placeholder="Write Your Message"></textarea>
+                      </label>
+                    </div>
+                    <div class="form-control mt-6">
+                      <button class="btn  bg-primary-colour bg-[#FF4240] w-full px-6 text-white">Send Message</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+        </section>
+    
+ 
+    
+      <footer class="mt-12 bg-black">
+        <!-- footer -->
+        <footer class="footer flex flex-col justify-center items-center md:flex-row md:justify-evenly bg-tittle text-[#FFFFFF99] text-base p-10">
+          <div class="">
+          <nav class="space-y-3">
+            <h6 class="text-3xl text-white font-extrabold text-center md:text-start">Get in touch</h6>
+            <p class="text-center md:text-start">Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. Purus <br> urna in sit nullam proin. </p>
+            <div class="flex items-center gap-3 justify-center md:justify-start">
+              <i class="fa-regular fa-envelope text-2xl text-primary-colour"></i>
+              <p>hockeys@support.com</p>
+            </div>
+            <div class="flex items-center gap-3 justify-center md:justify-start">
+              <i class="fa-solid fa-phone text-2xl text-primary-colour"></i>
+              <p>(+62) 123-321-543</p>
+            </div>
+          </div>
+            
+          </nav>
+    
+          
+          <nav>
+            <h6 class="text-lg text-white font-bold">Company</h6>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Leadership</a>
+            <a class="link link-hover">Careers</a>
+            <a class="link link-hover">News & Article</a>
+            <a class="link link-hover">Legal Notice</a>
+           
+          </nav>
+          <nav>
+            <h6 class="text-lg text-white font-bold">Support</h6>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+            <a class="link link-hover">Cookie policy</a>
+            <a class="link link-hover">Cookie policy</a>
+          </nav>
+          <nav>
+            <h6 class="text-lg text-white font-bold">Service</h6>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+            <a class="link link-hover">Cookie policy</a>
+            <a class="link link-hover">Cookie policy</a>
+          </nav>
+   </footer>
+
+</body>
+</html>
